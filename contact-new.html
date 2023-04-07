@@ -1,0 +1,922 @@
+<!doctype html>
+<html lang="en">
+<!-- Best Coding Experts  -->
+<!-- We Always Serve Your Better -->
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- <<Attched Stylesheets>> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" />
+    <link rel="stylesheet" href="css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="css/media.css" type="text/css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    <title>Minds Task</title>
+<style>
+    .multiselect {
+  width: 100%;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #fff solid;
+}
+
+#checkboxes label {
+  display: flex;
+  padding: 7px 15px;
+}
+
+#checkboxes label:hover {
+  background-color: transparent;
+}
+.custom-check{
+    position: relative;
+    z-index: 1;
+    background: white;
+  bottom: 29px;
+    width: 100%;
+    border-radius: .25rem;
+}
+.custom-check span{
+    position: absolute;
+    left: 35px;
+    margin-top: -14px;
+}
+.contact-form-bg{
+    background: linear-gradient(to right, #103a60 0%, #277ac5 100%);
+    border-radius: 0.5rem;
+}
+
+</style>
+</head>
+
+<body>
+
+    <!-- \\ Begin Header \\ -->
+    
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <!-- \\ Site Logo \\ -->
+                <div class="site-logo col-md-3">
+                    <a href="/"><img src="images/logo.png" alt=""></a>
+                </div>
+
+
+
+                <div class="top_right_section col-md-9">
+                    <div class="row">
+                        <nav class="Nav col-md-9">
+
+                            <ul id="menu">
+
+                                <li><a href="/">Home</a></li>
+
+                                <li>
+                                    <a href="#">
+                                            About Us                                            </a>
+                                </li>
+                                <li>
+                                    <a href="#">Services                                        <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+                                    </a>
+                                    <div class="dropdwn">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    Magento                                                    </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Front End Development                                                    </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Pimcore Services                                                    </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    QA Testing Services                                                    </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Mobile Apps Development                                                    </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Digital Marketing Services                                                    </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                            Knowledge Center                                            </a>
+                                </li>
+                                <li>
+                                    <a href="#">Solutions                                        <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+                                    </a>
+                                    <div class="dropdwn">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    Pimcore PIM                                                    </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    DevOps                                                    </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </nav>
+
+                        <div class="top_nav col-md-3">
+                            <ul>
+
+                                <li class="contact"><a href="#">Contact</a></li>
+                                <li>
+                                    <div class="container-hamburger">
+                                        <div class="hamburger-wrapper">
+                                            <div class="hamburger">
+                                                <span class="hamurger-first"></span>
+                                                <span class="hamurger-second"></span>
+                                                <span class="hamurger-third"></span>
+                                            </div>
+                                            <div class="hamburger-menu">
+                                                <ul class="hamburger-nav">
+                                                    <div class="slideLogo"><img src="https://mindstask.com/side-menu-logo/logo_white.png" alt="" width="175" /></div>
+                                                    <div class="onlySmalldesvice">
+                                                        <div class="">
+                                                            <div class="tabs">
+                                                                <div class="tab">
+                                                                    <a href="/" class="tab-label">Home</a>
+                                                                </div>
+                                                                <div class="tab">
+                                                                    <a href="#" class="tab-label">
+                                                        About Us                                                      </a>
+
+
+                                                                </div>
+
+                                                                <div class="tab">
+                                                                    <input type="radio" id="rd2" name="rd">
+                                                                    <label class="tab-label tabArrow" for="rd2">Services</label>
+                                                                    <div class="tab-content">
+
+                                                                        <a href="#">
+                                                              Magento
+                                                        </a>
+
+                                                                        <a href="#">
+                                                              Front End Development
+                                                        </a>
+
+                                                                        <a href="#">
+                                                              Pimcore Services
+                                                        </a>
+
+                                                                        <a href="#">
+                                                              QA Testing Services
+                                                        </a>
+
+                                                                        <a href="#">
+                                                              Mobile Apps Development
+                                                        </a>
+
+                                                                        <a href="#">
+                                                              Digital Marketing Services
+                                                        </a>
+                                                                    </div>
+                                                                </div>
+
+
+                                                                <div class="tab">
+                                                                    <a href="#" class="tab-label">
+                                                        Knowledge Center                                                      </a>
+
+
+                                                                </div>
+
+                                                                <div class="tab">
+                                                                    <input type="radio" id="rd2" name="rd">
+                                                                    <label class="tab-label tabArrow" for="rd2">Solutions</label>
+                                                                    <div class="tab-content">
+
+                                                                        <a href="#">
+                                                              Pimcore PIM
+                                                        </a>
+
+                                                                        <a href="#">
+                                                              DevOps
+                                                        </a>
+                                                                    </div>
+                                                                </div>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <li> <a href="#" target="_blank" type="internal">Product Information Management (PIM)</a></li>
+                                                    <li> <a href="#" target="_blank" type="internal">Mobile / App Development</a></li>
+                                                    <li> <a href="#" target="_blank">QA Testing Services</a></li>
+                                                    <li> <a href="#" target="_blank">Digital Marketing Services</a></li>
+                                                    <div class="slideSocial">
+                                                        <a href="https://www.facebook.com/MindsTaskTechnologies" target="_blank" class="fa fa-facebook" type="internal"></a>
+                                                        <a href="https://twitter.com/MindsTask" target="_blank" class="fa fa-twitter" type="internal"></a>
+                                                        <a href="https://www.linkedin.com/company/14539201" target="_blank" class="fa fa-linkedin" type="internal"></a>
+                                                        <a href="https://www.instagram.com/mindstasktechnologies/" target="_blank" class="fa fa-instagram" type="internal"></a>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- \\  Begin mobilemenu \\  -->
+            <div class="mobilemenu">
+                <div id="mainmenu" class="default11"></div>
+            </div>
+            <!-- // End mobilemenu  //  -->
+
+        </div>
+    </header>
+    <!-- // End Header // -->
+    <!-- content section start here -->
+    <main class="content">
+        <section class="about-banner  position-relative">
+            <figure class="banner-image">
+                <img src="images/contact2.jpg" class="img-fluid" alt="contact-banner-image">
+            </figure>
+            </div>
+        </section>
+
+        <section class="get-in-touch">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12  col-lg-7">
+                        <div class="contact-form contact-form-bg">
+                        <div class="contact-us">
+                        <h4>Get in touch with us</h4>
+                        <div class="heading-border-line" style="margin: 0 auto;"></div>
+                        </div>
+                        <div class="contact-us-form">
+                        <div id="error-msg"></div>
+
+                        <form class="form wow fadeInUpShort" id="contact_form" style="visibility: visible;">
+                                    
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <!-- Name -->
+                                    <div class="form-group">
+                                        <input type="text" name="name1" id="name1" class="input-lg round form-control" placeholder="First Name"required="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <!-- Email -->
+                                    <div class="form-group">
+                                        <input type="text" name="name2" id="name2" class="input-lg round form-control" placeholder="Last Name"required="" aria-required="true">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <!-- Name -->
+                                    <div class="form-group">
+                                        <input type="tel" id="contactphone" class="input-lg round form-control" name="contactphone" placeholder="Phone Number" required="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <!-- Email -->
+                                    <div class="form-group">
+                                        <input type="email" name="email" id="email" class="input-lg round form-control" placeholder="Email" required="" aria-required="true">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <!-- Name -->
+                                    <div class="form-group">
+                                        <input type="text" name="company" id="company" class="input-lg round form-control" placeholder="Company"required="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <!-- Email -->
+                                    <div class="form-group">
+                                        <select id="country" name="country" class="select-ipt input-lg round form-control">
+                                            <option>Country</option><span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+                        <option value="af">Afghanistan</option>
+                    <option value="al">Albania</option>
+                    <option value="dz">Algeria</option>
+                    <option value="as">American Samoa</option>
+                    <option value="ad">Andorra</option>
+                    <option value="ao">Angola</option>
+                    <option value="ai">Anguilla</option>
+                    <option value="aq">Antarctica</option>
+                    <option value="ag">Antigua &amp; Barbuda</option>
+                    <option value="ar">Argentina</option>
+                    <option value="am">Armenia</option>
+                    <option value="aw">Aruba</option>
+                    <option value="au">Australia</option>
+                    <option value="at">Austria</option>
+                    <option value="az">Azerbaijan</option>
+                    <option value="bs">Bahamas</option>
+                    <option value="bh">Bahrain</option>
+                    <option value="bd">Bangladesh</option>
+                    <option value="bb">Barbados</option>
+                    <option value="by">Belarus</option>
+                    <option value="be">Belgium</option>
+                    <option value="bz">Belize</option>
+                    <option value="bj">Benin</option>
+                    <option value="bm">Bermuda</option>
+                    <option value="bt">Bhutan</option>
+                    <option value="bo">Bolivia</option>
+                    <option value="ba">Bosnia &amp; Herzegovina</option>
+                    <option value="bw">Botswana</option>
+                    <option value="bv">Bouvet Island</option>
+                    <option value="br">Brazil</option>
+                    <option value="io">British Indian Ocean Territory</option>
+                    <option value="vg">British Virgin Islands</option>
+                    <option value="bn">Brunei</option>
+                    <option value="bg">Bulgaria</option>
+                    <option value="bf">Burkina Faso</option>
+                    <option value="bi">Burundi</option>
+                    <option value="kh">Cambodia</option>
+                    <option value="cm">Cameroon</option>
+                    <option value="ca">Canada</option>
+                    <option value="cv">Cape Verde</option>
+                    <option value="bq">Caribbean Netherlands</option>
+                    <option value="ky">Cayman Islands</option>
+                    <option value="cf">Central African Republic</option>
+                    <option value="td">Chad</option>
+                    <option value="cl">Chile</option>
+                    <option value="cn">China</option>
+                    <option value="cx">Christmas Island</option>
+                    <option value="cc">Cocos (Keeling) Islands</option>
+                    <option value="co">Colombia</option>
+                    <option value="km">Comoros</option>
+                    <option value="cg">Congo - Brazzaville</option>
+                    <option value="cd">Congo - Kinshasa</option>
+                    <option value="ck">Cook Islands</option>
+                    <option value="cr">Costa Rica</option>
+                    <option value="hr">Croatia</option>
+                    <option value="cu">Cuba</option>
+                    <option value="cw">Curaçao</option>
+                    <option value="cy">Cyprus</option>
+                    <option value="cz">Czechia</option>
+                    <option value="ci">Côte d’Ivoire</option>
+                    <option value="dk">Denmark</option>
+                    <option value="dj">Djibouti</option>
+                    <option value="dm">Dominica</option>
+                    <option value="do">Dominican Republic</option>
+                    <option value="ec">Ecuador</option>
+                    <option value="eg">Egypt</option>
+                    <option value="sv">El Salvador</option>
+                    <option value="gq">Equatorial Guinea</option>
+                    <option value="er">Eritrea</option>
+                    <option value="ee">Estonia</option>
+                    <option value="sz">Eswatini</option>
+                    <option value="et">Ethiopia</option>
+                    <option value="fk">Falkland Islands</option>
+                    <option value="fo">Faroe Islands</option>
+                    <option value="fj">Fiji</option>
+                    <option value="fi">Finland</option>
+                    <option value="fr">France</option>
+                    <option value="gf">French Guiana</option>
+                    <option value="pf">French Polynesia</option>
+                    <option value="tf">French Southern Territories</option>
+                    <option value="ga">Gabon</option>
+                    <option value="gm">Gambia</option>
+                    <option value="ge">Georgia</option>
+                    <option value="de">Germany</option>
+                    <option value="gh">Ghana</option>
+                    <option value="gi">Gibraltar</option>
+                    <option value="gr">Greece</option>
+                    <option value="gl">Greenland</option>
+                    <option value="gd">Grenada</option>
+                    <option value="gp">Guadeloupe</option>
+                    <option value="gu">Guam</option>
+                    <option value="gt">Guatemala</option>
+                    <option value="gg">Guernsey</option>
+                    <option value="gn">Guinea</option>
+                    <option value="gw">Guinea-Bissau</option>
+                    <option value="gy">Guyana</option>
+                    <option value="ht">Haiti</option>
+                    <option value="hm">Heard &amp; McDonald Islands</option>
+                    <option value="hn">Honduras</option>
+                    <option value="hk">Hong Kong SAR China</option>
+                    <option value="hu">Hungary</option>
+                    <option value="is">Iceland</option>
+                    <option value="in" >India</option>
+                    <option value="id">Indonesia</option>
+                    <option value="ir">Iran</option>
+                    <option value="iq">Iraq</option>
+                    <option value="ie">Ireland</option>
+                    <option value="im">Isle of Man</option>
+                    <option value="il">Israel</option>
+                    <option value="it">Italy</option>
+                    <option value="jm">Jamaica</option>
+                    <option value="jp">Japan</option>
+                    <option value="je">Jersey</option>
+                    <option value="jo">Jordan</option>
+                    <option value="kz">Kazakhstan</option>
+                    <option value="ke">Kenya</option>
+                    <option value="ki">Kiribati</option>
+                    <option value="kw">Kuwait</option>
+                    <option value="kg">Kyrgyzstan</option>
+                    <option value="la">Laos</option>
+                    <option value="lv">Latvia</option>
+                    <option value="lb">Lebanon</option>
+                    <option value="ls">Lesotho</option>
+                    <option value="lr">Liberia</option>
+                    <option value="ly">Libya</option>
+                    <option value="li">Liechtenstein</option>
+                    <option value="lt">Lithuania</option>
+                    <option value="lu">Luxembourg</option>
+                    <option value="mo">Macao SAR China</option>
+                    <option value="mg">Madagascar</option>
+                    <option value="mw">Malawi</option>
+                    <option value="my">Malaysia</option>
+                    <option value="mv">Maldives</option>
+                    <option value="ml">Mali</option>
+                    <option value="mt">Malta</option>
+                    <option value="mh">Marshall Islands</option>
+                    <option value="mq">Martinique</option>
+                    <option value="mr">Mauritania</option>
+                    <option value="mu">Mauritius</option>
+                    <option value="yt">Mayotte</option>
+                    <option value="mx">Mexico</option>
+                    <option value="fm">Micronesia</option>
+                    <option value="md">Moldova</option>
+                    <option value="mc">Monaco</option>
+                    <option value="mn">Mongolia</option>
+                    <option value="me">Montenegro</option>
+                    <option value="ms">Montserrat</option>
+                    <option value="ma">Morocco</option>
+                    <option value="mz">Mozambique</option>
+                    <option value="mm">Myanmar (Burma)</option>
+                    <option value="na">Namibia</option>
+                    <option value="nr">Nauru</option>
+                    <option value="np">Nepal</option>
+                    <option value="nl">Netherlands</option>
+                    <option value="nc">New Caledonia</option>
+                    <option value="nz">New Zealand</option>
+                    <option value="ni">Nicaragua</option>
+                    <option value="ne">Niger</option>
+                    <option value="ng">Nigeria</option>
+                    <option value="nu">Niue</option>
+                    <option value="nf">Norfolk Island</option>
+                    <option value="kp">North Korea</option>
+                    <option value="mk">North Macedonia</option>
+                    <option value="mp">Northern Mariana Islands</option>
+                    <option value="no">Norway</option>
+                    <option value="om">Oman</option>
+                    <option value="pk">Pakistan</option>
+                    <option value="pw">Palau</option>
+                    <option value="ps">Palestinian Territories</option>
+                    <option value="pa">Panama</option>
+                    <option value="pg">Papua New Guinea</option>
+                    <option value="py">Paraguay</option>
+                    <option value="pe">Peru</option>
+                    <option value="ph">Philippines</option>
+                    <option value="pn">Pitcairn Islands</option>
+                    <option value="pl">Poland</option>
+                    <option value="pt">Portugal</option>
+                    <option value="pr">Puerto Rico</option>
+                    <option value="qa">Qatar</option>
+                    <option value="ro">Romania</option>
+                    <option value="ru">Russia</option>
+                    <option value="rw">Rwanda</option>
+                    <option value="re">Réunion</option>
+                    <option value="ws">Samoa</option>
+                    <option value="sm">San Marino</option>
+                    <option value="sa">Saudi Arabia</option>
+                    <option value="sn">Senegal</option>
+                    <option value="rs">Serbia</option>
+                    <option value="sc">Seychelles</option>
+                    <option value="sl">Sierra Leone</option>
+                    <option value="sg">Singapore</option>
+                    <option value="sx">Sint Maarten</option>
+                    <option value="sk">Slovakia</option>
+                    <option value="si">Slovenia</option>
+                    <option value="sb">Solomon Islands</option>
+                    <option value="so">Somalia</option>
+                    <option value="za">South Africa</option>
+                    <option value="gs">South Georgia &amp; South Sandwich Islands</option>
+                    <option value="kr">South Korea</option>
+                    <option value="ss">South Sudan</option>
+                    <option value="es">Spain</option>
+                    <option value="lk">Sri Lanka</option>
+                    <option value="bl">St. Barthélemy</option>
+                    <option value="sh">St. Helena</option>
+                    <option value="kn">St. Kitts &amp; Nevis</option>
+                    <option value="lc">St. Lucia</option>
+                    <option value="mf">St. Martin</option>
+                    <option value="pm">St. Pierre &amp; Miquelon</option>
+                    <option value="vc">St. Vincent &amp; Grenadines</option>
+                    <option value="sd">Sudan</option>
+                    <option value="sr">Suriname</option>
+                    <option value="sj">Svalbard &amp; Jan Mayen</option>
+                    <option value="se">Sweden</option>
+                    <option value="ch">Switzerland</option>
+                    <option value="sy">Syria</option>
+                    <option value="st">São Tomé &amp; Príncipe</option>
+                    <option value="tw">Taiwan</option>
+                    <option value="tj">Tajikistan</option>
+                    <option value="tz">Tanzania</option>
+                    <option value="th">Thailand</option>
+                    <option value="tl">Timor-Leste</option>
+                    <option value="tg">Togo</option>
+                    <option value="tk">Tokelau</option>
+                    <option value="to">Tonga</option>
+                    <option value="tt">Trinidad &amp; Tobago</option>
+                    <option value="tn">Tunisia</option>
+                    <option value="tr">Turkey</option>
+                    <option value="tm">Turkmenistan</option>
+                    <option value="tc">Turks &amp; Caicos Islands</option>
+                    <option value="tv">Tuvalu</option>
+                    <option value="um">U.S. Outlying Islands</option>
+                    <option value="vi">U.S. Virgin Islands</option>
+                    <option value="ug">Uganda</option>
+                    <option value="ua">Ukraine</option>
+                    <option value="ae">United Arab Emirates</option>
+                    <option value="gb">United Kingdom</option>
+                    <option value="us">United States</option>
+                    <option value="uy">Uruguay</option>
+                    <option value="uz">Uzbekistan</option>
+                    <option value="vu">Vanuatu</option>
+                    <option value="va">Vatican City</option>
+                    <option value="ve">Venezuela</option>
+                    <option value="vn">Vietnam</option>
+                    <option value="wf">Wallis &amp; Futuna</option>
+                    <option value="eh">Western Sahara</option>
+                    <option value="ye">Yemen</option>
+                    <option value="zm">Zambia</option>
+                    <option value="zw">Zimbabwe</option>
+                    <option value="ax">Åland Islands</option>
+                                            </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="test">
+                                    <div class="multiselect">
+                                        <div class="selectBox" onclick="showCheckboxes()">
+                                          <select class="select-ipt input-lg round form-control">
+                                            <option>Interested In</option>
+                                          </select>
+                                          <div class="overSelect"></div>
+                                        </div>
+                                        <div id="checkboxes" class="custom-check">
+                                          <label for="one" class="label-custom">
+                                            <input type="checkbox" class="check-ipt input-lg round form-control"  id="one" /><span class="span-custom">PIM Development</span></label>
+                                          <label for="two" class="label-custom">
+                                            <input type="checkbox" class="check-ipt input-lg round form-control"  id="two" /><span class="span-custom">Custom Software</span></label>
+                                          <label for="three" class="label-custom">
+                                            <input type="checkbox" class="check-ipt input-lg round form-control"  id="three" /><span class="span-custom">Mobility</span></label>
+                                            <label for="4" class="label-custom">
+                                                <input type="checkbox" class="check-ipt input-lg round form-control"  id="4" /><span class="span-custom">Front End
+                                                </span></label>
+                                                <label for="5" class="label-custom">
+                                                    <input type="checkbox" class="check-ipt input-lg round form-control"  id="5" /><span class="span-custom">Back End</span></label>
+                                                    <label for="6" class="label-custom">
+                                                        <input type="checkbox" class="check-ipt input-lg round form-control"  id="6" /><span class="span-custom">DevOps</span></label>
+                                                        <label for="7" class="label-custom">
+                                                            <input type="checkbox" class="check-ipt input-lg round form-control"  id="7" /><span class="span-custom">QA</span></label>
+                                                            <label for="8" class="label-custom">
+                                                                <input type="checkbox" class="check-ipt input-lg round form-control"  id="8" /><span class="span-custom">Performance Marketing</span></label>
+                                                                <label for="9" class="label-custom">
+                                                                    <input type="checkbox" class="check-ipt input-lg round form-control"  id="9" /><span class="span-custom">IT Infrastructure</span></label>
+                                        </div>
+                                      </div>
+                                    </div>  
+                                </div>
+                            </div>
+                            
+                            <!-- Message -->
+                            <div class="row">
+                            <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea name="message" id="message" class="input-lg round form-control" style="height: 200px;" placeholder="Enter your message"></textarea>
+                            </div>
+                        </div>
+                        </div>
+                            
+                            <div class="row">
+                                <div class="col-lg-12 text-center">
+                                    <!-- Send Button -->
+                                    <div class="contact-sbt">
+                                        <a href="javascript:void(0);" id="campaign_submit" class="contact send-btn" onclick="submitForm();">submit</a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                           <div id="result" role="region" aria-live="polite" aria-atomic="true"></div>
+                           
+                        </form>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="col-12 col-lg-5 location">
+                        <h3>Contact Information</h3>
+                        <div>
+                            <div class="card card-abt me-lg-6">
+                                <div class="card-body p-6">
+                                    <div class="d-flex flex-row">
+                                        <div>
+                                            <span class="circle-contact"><span class="icons-contact"><i class="fas fa-phone" aria-hidden="true"></i></span></span>
+                                        </div>
+                                        <div class="info-content">
+                                            <h4 class="">Contact Number</h4>
+                                            <a href="tel:+91-8750249810">8750249810 ,</a>&nbsp;
+                                            <a href="tel:+91 9953970301">9953970301</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/.card-body -->
+                            </div>
+
+                            <div class="card card-abt me-lg-6">
+                                <div class="card-body p-6">
+                                    <div class="d-flex flex-row">
+                                        <div>
+                                            <span class="circle-contact"><span class="icons-contact"><i class="fas fa-envelope" aria-hidden="true"></i></span></span>
+                                        </div>
+                                        <div class="info-content">
+                                            <h4 class="">Email Us</h4>
+                                            <a href="mailto:info@mindstask.com">info@mindstask.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/.card-body -->
+                            </div>
+
+                            <div class="card card-abt me-lg-6">
+                                <div class="card-body p-6">
+                                    <div class="d-flex flex-row">
+                                        <div>
+                                            <span class="circle-contact"><span class="icons-contact"><i class="fas fa-globe" aria-hidden="true"></i></span></span>
+                                        </div>
+                                        <div class="info-content">
+                                            <h4 class="">India <img src="images/Flag-India.jpg"></h4>
+                                           <p> A-152,LGF, Sector 63, Industrial Area, Noida, Uttar Pradesh 201309</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/.card-body -->
+                            </div>
+
+                            <div class="card card-abt me-lg-6">
+                                <div class="card-body p-6">
+                                    <div class="d-flex flex-row">
+                                        <div>
+                                            <span class="circle-contact"><span class="icons-contact"><i class="fas fa-globe" aria-hidden="true"></i></span></span>
+                                        </div>
+                                        <div class="info-content">
+                                            <h4 class="">USA<img src="images/usa.jpg"></h4>
+                                            <p>2890, Nottingham Dr Trophy Club, TX, 76262</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/.card-body -->
+                            </div>
+
+                            <div class="card card-abt me-lg-6">
+                                <div class="card-body p-6">
+                                    <div class="d-flex flex-row">
+                                        <div>
+                                            <span class="circle-contact"><span class="icons-contact"><i class="fas fa-globe" aria-hidden="true"></i></span></span>
+                                        </div>
+                                        <div class="info-content">
+                                            <h4 class="">Europe  <img src="images/europe.png"></h4>
+                                          
+                                           <p>Njalsgade, 19d 1st Floor, 2300 Copenhagen, Denmark</p>
+                                           <p>Haugane, 12 A, 3409, Tranby, Norway</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/.card-body -->
+                            </div>
+
+                            <!-- <div class="card card-abt me-lg-6">
+                                <div class="card-body p-6">
+                                    <div class="d-flex flex-row">
+                                        <div>
+                                            <span class="circle-contact"><span class="icons-contact"><i class="fas fa-envelope" aria-hidden="true"></i></span></span>
+                                        </div>
+                                        <div class="info-content">
+                                            <h4 class="">Email Us</h4>
+                                            <a href="mailto:info@mindstask.com">info@mindstask.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28018.660102205!2d77.3611549!3d28.6197948!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x19404eac3fae3493!2sMind%20Task!5e0!3m2!1sen!2sin!4v1596597583657!5m2!1sen!2sin"
+                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+    </main>
+    <!-- content section end hare -->
+
+    <footer>
+        <div class="Footer_contact">
+            <div class="container">
+                <div class="row">
+                    <div class="left_section col-md-9">
+                        <ul>
+                            <li>
+                                <div class="mid">
+                                    <div class="icn">
+                                        <span><i class="fab fa-skype"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <h5>skype ID <em><a href="#">mindstask@skype.com</a></em></h5>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="mid">
+                                    <div class="icn">
+                                        <span><i class="fas fa-phone-alt"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <h5><a href="#">+91 87 50 24 9810</a> <em><a href="#">+91 88 82 85 41
+                                                    72</a></em></h5>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="mid">
+                                    <div class="icn">
+                                        <span><i class="fas fa-envelope-open"></i></span>
+                                    </div>
+                                    <div class="text">
+                                        <h5>Mail Address <em><a href="#">info@mindstask.com</a></em></h5>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right_section col-md-3">
+                        <a href="#">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Footer_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1 footer_logo">
+                        <a href="#"><img src="images/footer-logo.png" alt=""></a>
+                    </div>
+                    <div class="col-md-3 talk">
+                        <h6>Would you like <span>to talk about</span> <span>your project?</span></h6>
+                        <a href="#">Get in touch</a>
+                    </div>
+                    <div class="col-md-2 links">
+                        <ul>
+                            <li><em>LINKS</em></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Know Minds Task</a></li>
+                            <li><a href="#">Our Service</a></li>
+                            <li><a href="#">Campaign</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 social_links">
+                        <ul>
+                            <li><em>@FOLLOWMINDSTASK</em></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instragram</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Linkedin</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 address_section">
+                        <ul>
+                            <li><em>OFFICE ADDRESS</em></li>
+                            <li>
+                                <address><span>India:</span> 612C, B Tower, Ithum Sector 62, Industrial Area, Noida,
+                                    Uttar Pradesh 201309</address>
+                            </li>
+                            <li>
+                                <address><span>US:</span> 612C, B Tower, Ithum Sector 62, Industrial Area, Noida, Uttar
+                                    Pradesh 201309</address>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Copyright_section">
+            <div class="container">
+                <div class="row">
+                    <div class="left col-md-6">
+                        <p>Copyright © 2020 Mindstask. All Rights Reserved.</p>
+                    </div>
+                    <div class="right col-md-6">
+                        <ul>
+                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- // End Footer // -->
+<script>
+var expanded = false;
+function showCheckboxes(e) {
+  var checkboxes = document.getElementById("checkboxes");
+  if (!expanded) {
+    checkboxes.style.display = "block";
+    expanded = true;
+  } else {
+    checkboxes.style.display = "none";
+    expanded = false;
+  }
+}
+window.onload = function(){
+            var hideMe = document.getElementById('checkboxes');
+            document.onclick = function(e){
+            var className = e.target.className; 
+            console.log(className);
+          //e.target.className != 'overSelect' || e.target.className != 'check-ipt'
+               if($(e.target).hasClass('overSelect')  || $(e.target).hasClass('check-ipt')  || $(e.target).hasClass('label-custom') || $(e.target).hasClass('span-custom') ){
+                   // do nothing
+               } else{
+                
+                    hideMe.style.display = 'none';
+                    expanded = false;
+               }
+            };
+         };
+    </script>
+   
+    <!-- <<Attched Javascripts>> -->
+    <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/jquery.slicknav.js"></script>
+    <script type="text/javascript" src="js/font-awesome.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+
+
+</body>
+
+</html>

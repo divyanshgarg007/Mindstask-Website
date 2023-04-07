@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!doctype html>
+<html lang="en">
+<!-- Best Coding Experts  -->
+<!-- We Always Serve Your Better -->
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- <<Attched Stylesheets>> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" />
+    <link rel="stylesheet" href="css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="css/media.css" type="text/css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+
+    <title>Minds Task</title>
+	<style>
+        .silver-partner a{
+            /* position: absolute;
+            right: 0;
+            top: 100px; */
+            position: fixed;
+            right: 3px;
+            bottom: 50%;
+        }        
+                   
+        .silver-partner a img{
+           max-width: 150px;
+        }     
+        .client-img img{
+            max-width: 150px!important;
+            margin: 0 auto;
+        }
+        .client-owl-navs-control .owl-theme .owl-controls{
+            margin-top: 40px;
+        }
+        @media only screen and (max-width: 767px){
+            .silver-partner a{
+           
+        }      
+        }
+        .open-button {
+  color: #fff; 
+  background: linear-gradient(to right, #f54640 0%, #fd7445 100%);
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  opacity:1;
+    z-index: 111;
+  position: fixed;
+  bottom: 44%;
+  right: 3px;
+  font: inherit;
+}
+.chat-popup {
+  display: none;
+  position: fixed;
+      top: 50.5%;
+      width: 400px;
+    right: 3px;
+  box-shadow: 0 6px 30px 0 rgba(0,0,0,.12);
+  z-index: 1023;
+}
+.form-container {
+  margin-bottom:0px;
+  padding: 0px 20px;
+  background-color: white;
+}
+.form-container textarea {
+    height: 100px;
+    resize: none;
+}
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+.chat-head{
+padding: 20px 15px;
+    color: #002a54!important;
+    font-size: 30px;
+    font-weight: 600;
+    background: #ffff;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+	.form-close{
+	position: absolute;
+    right: 0;
+    top: 5px;
+    color: #002a54;
+    opacity: 1;
+	padding-right: 10px!important;
+	}
+	.form-close:focus, .form-close:hover{
+	outline: none;
+    color: #002a54;
+    opacity: 1;
+	}
+	.open-button:hover{
+	  color: #fff!important;
+      text-decoration: none;
+	}
+    .open-button:focus{
+        outline: none;
+    }
+    .form-container .form-control:focus{
+        color: #111;
+    border-color: rgba(0,0,0,.7);
+    box-shadow: 0 0 3px rgb(0 0 0 / 30%);
+    outline: none;
+    }
+	.enquiry-check{
+        font-size: 14px!important;
+    color: #000!important;
+    font-weight: 500;
+    }
+    .enquiry-btn{
+        padding: 10px 0px 30px;
+    }
+    .enquiry-btn .send-enquiry{
+        background: #002a54;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    }
+	@media(max-width:767px){
+        .chat-popup{
+            width: 99%;
+    right: 0;
+    left: 1px;
+    top: 50%;
+    margin: 0 auto;
+        }
+	}
+    nav ul li:hover .mega-menu-container.st-menu{
+        height: 500px;
+        overflow-y: scroll;
+    }
+    nav ul li:hover .mega-menu-container{
+        transition: height 1s;
+    }
+    nav ul li .mega-menu-container{
+        top: 90px;
+    right: 0;
+    width: 100%;
+    height: 0px;
+    padding: 0px;
+    }
+    .mega-menu-container{
+        height: 0;
+    padding: 20px 20px 20px 40px;
+    overflow: hidden;
+    position: fixed;
+    right: -60px;
+    top: 0px;
+    width: 0;
+    background: #002a54;
+    z-index: 1;
+    margin-right: 0px;
+    }
+    nav ul li .mega-menu{
+        margin-right: 0px;
+    }
+    .mega-menu {
+    padding: 30px 15px 15px;
+}
+.mega-menu {
+    position: relative;
+    height: 100%;
+    padding: 20px 20px 20px 40px;
+    padding-top: 50px;
+    background: #002a54;
+}
+.mega-menu .wrapper {
+    position: relative;
+    z-index: 1;
+    width: auto;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+    width: 92%;
+}
+.mega-menu h3 {
+    padding-bottom: 10px;
+    font-size: 35px;
+    text-align: left;
+    color: #f72c40 ;
+    font-weight: 600;
+}   
+.mega-menu p {
+    padding-right: 10%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+}
+.wrapper:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+nav .mega-menu li {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* nav ul li {
+    float: left;
+} */
+.st-menu .mega-menu li a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5b5a5a;
+    padding: 0px;
+    color: #fff;
+    display: table-cell;
+    padding: 0 18px;
+}
+nav .mega-menu li a:before {
+    content: "";
+    width: 5px;
+    height: 8px;
+    position: absolute;
+    left: 0;
+    top: 11px;
+    background: url(https://cache.techmahindra.com/static/img/arrow-ham1.png) left top no-repeat;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.mega-menu .wrapper .heading{
+    font-size: 1.4rem;
+    position: relative;
+    line-height: 1.22;
+    margin: 0 0 1rem;
+    flex-grow: 1;
+    letter-spacing: 0.8px;
+    z-index: 1;
+}
+.mega-menu .wrapper .heading span{
+    color: #FFFFFF;
+    font-weight: 700;
+    display: block;
+}
+
+.mega-custom-submenu ul{
+    height: 300px;
+    background: transparent!important;
+}
+.custom-padding{
+    padding: 1.4rem 0;
+}
+	</style>
+</head>
+
+<body>
+  
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <!-- \\ Site Logo \\ -->
+                <div class="site-logo col-md-3">
+                    <a href="/"><img src="images/logo.png" alt=""></a>
+                </div>
+
+              <div class="silver-partner">
+                <a href="https://mindstask.com/blog/we-are-now-a-pimcore-silver-partner"><img src="images/partnership.svg" alt=""></a>
+              </div>
+
+
+                <div class="top_right_section col-md-9">
+                    <div class="row">
+                        <nav class="Nav col-md-9">
+                        
+                            <ul id="menu">
+                                
+                                <li class="custom-padding"><a href="/">Home</a></li>
+                                                                                                                                                    
+                                        <li class="custom-padding">
+                                            <a href="#">
+                                                About Us </a>
+                                        </li>
+                                    <li class="custom-padding">
+                                        <a href="#">Services  <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+                                        </a>
+                                        <div class="mega-menu-container st-menu">
+                                            <div class="mega-menu">
+                                                <div class="wrapper">
+                                                    <h3>Services</h3>
+                                                    <p>Our service offerings are aligned to the changing world of our customers. Our portfolio of services range from designing strategy to delivering impact.</p>
+                                                    <div class="col-md-12">
+                                                        <div class="row">
+                                                            <div class="col-md-4">
+                                                                <div class="mega-custom-submenu">
+                                                                <ul>
+                                                                    <li class="heading"><span>Mobile App  Development</span></li>
+                                                                    <li><a href="">Infrastructure and Cloud Services</a></li>
+                                                                    <li><a href="">Integrated Engineering Solutions</a></li>
+                                                                    <li><a href="">Enterprise Business Solution</a></li>
+                                                                    <li><a href="">Data Analytics</a></li>
+                                                                    
+                                                                </ul>
+                                                            </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="mega-custom-submenu">
+                                                                    <ul>
+                                                                        <li class="heading"><span>UI/UX</span></li>
+                                                                        <li><a href="">Infrastructure and Cloud Services</a></li>
+                                                                        <li><a href="">Integrated Engineering Solutions</a></li>
+                                                                        <li><a href="">Enterprise Business Solution</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="mega-custom-submenu">
+                                                                    <ul>
+                                                                        <li class="heading"><span>Digital Marketing Services</span></li>
+                                                                        <li><a href="">Infrastructure and Cloud Services</a></li>
+                                                                        <li><a href="">Integrated Engineering Solutions</a></li>
+                                                                        <li><a href="">Enterprise Business Solution</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="mega-custom-submenu">
+                                                                    <ul>
+                                                                        <li class="heading"><span>Digital Marketing Services</span></li>
+                                                                        <li><a href="">Infrastructure and Cloud Services</a></li>
+                                                                        <li><a href="">Integrated Engineering Solutions</a></li>
+                                                                        <li><a href="">Enterprise Business Solution</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="mega-custom-submenu">
+                                                                    <ul>
+                                                                        <li class="heading"><span>Digital Marketing Services</span></li>
+                                                                        <li><a href="">Infrastructure and Cloud Services</a></li>
+                                                                        <li><a href="">Integrated Engineering Solutions</a></li>
+                                                                        <li><a href="">Enterprise Business Solution</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="mega-custom-submenu">
+                                                                    <ul>
+                                                                        <li class="heading"><span>Digital Marketing Services</span></li>
+                                                                        <li><a href="">Infrastructure and Cloud Services</a></li>
+                                                                        <li><a href="">Integrated Engineering Solutions</a></li>
+                                                                        <li><a href="">Enterprise Business Solution</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="mega-custom-submenu">
+                                                                    <ul>
+                                                                        <li class="heading"><span>Digital Marketing Services</span></li>
+                                                                        <li><a href="">Infrastructure and Cloud Services</a></li>
+                                                                        <li><a href="">Integrated Engineering Solutions</a></li>
+                                                                        <li><a href="">Enterprise Business Solution</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                                                                                                                                        
+                                        <li class="custom-padding">
+                                            <a href="#">
+                                                Knowledge Center                                            </a>
+                                        </li>
+                                            <li class="custom-padding">
+                                        <a href="#">Solutions <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+                                        </a>
+                                        <div class="mega-menu-container st-menu">
+                                            <div class="mega-menu">
+                                                <div class="wrapper">
+                                                    <h3>Services</h3>
+                                                    <p>Our service offerings are aligned to the changing world of our customers. Our portfolio of services range from designing strategy to delivering impact.</p>
+                                                    <div class="col-md-12">
+                                                        <div class="row">
+                                                            <div class="col-md-4">
+                                                                <div class="mega-custom-submenu">
+                                                                <ul>
+                                                                    <li class="heading"><span>Mobile App  Development</span></li>
+                                                                    <li><a href="">Infrastructure and Cloud Services</a></li>
+                                                                    <li><a href="">Integrated Engineering Solutions</a></li>
+                                                                    <li><a href="">Enterprise Business Solution</a></li>
+                                                                    <li><a href="">Data Analytics</a></li>
+                                                                    
+                                                                </ul>
+                                                            </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="mega-custom-submenu">
+                                                                    <ul>
+                                                                        <li class="heading"><span>UI/UX</span></li>
+                                                                        <li><a href="">Infrastructure and Cloud Services</a></li>
+                                                                        <li><a href="">Integrated Engineering Solutions</a></li>
+                                                                        <li><a href="">Enterprise Business Solution</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="mega-custom-submenu">
+                                                                    <ul>
+                                                                        <li class="heading"><span>Digital Marketing Services</span></li>
+                                                                        <li><a href="">Infrastructure and Cloud Services</a></li>
+                                                                        <li><a href="">Integrated Engineering Solutions</a></li>
+                                                                        <li><a href="">Enterprise Business Solution</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                        <li><a href="">Data Analytics</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                                                </ul>
+                           
+                        </nav>
+                       
+                        <div class="top_nav col-md-3">
+                            <ul> 
+                                                                                                                                                                           
+                                <li class="contact"><a href="#">Contact</a></li>                                
+                                                                                    <li>
+                                    <div class="container-hamburger">
+                                      <div class="hamburger-wrapper">
+                                        <div class="hamburger">
+                                          <span class="hamurger-first"></span>
+                                          <span class="hamurger-second"></span>
+                                          <span class="hamurger-third"></span>
+                                        </div>
+                                        <div class="hamburger-menu">
+                                          <ul class="hamburger-nav">
+                                                                                      <div class="slideLogo"><img src="https://mindstask.com/side-menu-logo/logo_white.png" alt="" width="175" /></div>
+                                            <div class="onlySmalldesvice">
+                                                <div class="">                                                  
+                                                    <div class="tabs">
+                                                    <div class="tab">
+                                                        <a  href="/" class="tab-label" >Home</a>
+                                                    </div>
+                                                                                                          <div class="tab">
+                                                      <a href="#" class="tab-label">
+                                                            About Us                                                      </a>
+                                                      
+
+                                                      </div>
+                                                                                                                                                                 
+                                                      <div class="tab">
+                                                        <input type="radio" id="rd2" name="rd">
+                                                        <label class="tab-label tabArrow" for="rd2">Services</label>
+                                                        <div class="tab-content">
+                                                        
+                                                                  <a href="#">
+                                                                  Magento
+                                                            </a>
+                                                        
+                                                                  <a href="#">
+                                                                  Front End Development
+                                                            </a>
+                                                        
+                                                                  <a href="#">
+                                                                  Pimcore Services
+                                                            </a>
+                                                        
+                                                                  <a href="#">
+                                                                  QA Testing Services
+                                                            </a>
+                                                        
+                                                                  <a href="#">
+                                                                  Mobile Apps Development
+                                                            </a>
+                                                        
+                                                                  <a href="#">
+                                                                  Digital Marketing Services
+                                                            </a>
+                                                                                                                </div>
+                                                      </div>
+                                                     
+                                                      
+                                                                                                          <div class="tab">
+                                                      <a href="#" class="tab-label">
+                                                            Knowledge Center                                                      </a>
+                                                      
+
+                                                      </div>
+                                                                                                                                                                 
+                                                      <div class="tab">
+                                                        <input type="radio" id="rd2" name="rd">
+                                                        <label class="tab-label tabArrow" for="rd2">Solutions</label>
+                                                        <div class="tab-content">
+                                                        
+                                                                  <a href="#">
+                                                                  Pimcore PIM
+                                                            </a>
+                                                        
+                                                                  <a href="#">
+                                                                  DevOps
+                                                            </a>
+                                                                                                                </div>
+                                                      </div>
+                                                     
+                                                      
+                                                                                                        </div>
+                                                  </div>
+                                            </div>
+                                               
+
+
+<li> <a href="#" target="_blank" type="internal">Product Information Management (PIM)</a></li>
+ <li> <a href="#" target="_blank" type="internal">Mobile / App Development</a></li>
+ <li> <a href="#" target="_blank">QA Testing Services</a></li>
+ <li> <a href="#" target="_blank">Digital Marketing Services</a></li>
+ <div class="slideSocial">
+ <a href="https://www.facebook.com/MindsTaskTechnologies" target="_blank" class="fa fa-facebook" type="internal"></a> 
+ <a href="https://twitter.com/MindsTask" target="_blank" class="fa fa-twitter" type="internal"></a> 
+ <a href="https://www.linkedin.com/company/14539201" target="_blank" class="fa fa-linkedin" type="internal"></a>    
+ <a href="https://www.instagram.com/mindstasktechnologies/" target="_blank" class="fa fa-instagram" type="internal" ></a>                                                                                      
+</div>
+                                          </ul>
+                                        </div>
+                                      </div>  
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- \\  Begin mobilemenu \\  -->
+            <div class="mobilemenu">
+                  <div id="mainmenu" class="default11"></div>
+            </div>
+            <!-- // End mobilemenu  //  -->
+
+        </div>
+    </header>
+
+    <div class="Banner_section">
+        <div class="overlay">
+        </div>
+        <div class="">        
+            <div id="carouselExampleIndicators" class="carousel carousel-fade slide banner_slider_first" data-ride="carousel">                  
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                </ol>    
+                <div class="Main_slider">
+                  <div class="carousel-inner ">
+                    <div class="carousel-item active no-borders">
+                        <img class="d-block w-100 mobile-ht-home" src="images/IT-Infrastructure1.jpg" alt="First slide">
+                        <div class="carousel-caption custom-caption-home d-md-block">
+                            <div class="text container">
+                                <h1>The fully <span>charged digital</span> <span>powerhouse</span></h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <span>sed do eiusmod tempor incididunt magna aliqua.</span></p>
+                                <a href="#" class="orenge">GET STARTED</a>
+                             </div>
+                          </div>
+                        <!-- <div class="container">
+                        <div class="row">
+                            
+                        </div>  
+                    </div>                     -->
+                    </div>
+                    <div class="carousel-item no-borders">
+                        <img class="d-block w-100 mobile-ht-home" src="images/digital-marketing.jpg" alt="First slide">
+                        <div class="carousel-caption  custom-caption-home d-md-block">
+                            <div class="text container">
+                                <h1>We Deliver <span>The Solutions </span><span>You Need</span></h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <span>sed do eiusmod tempor incididunt magna aliqua.</span></p>
+                                <a class="" href="#">GET STARTED</a>
+                             </div>
+                          </div>
+                    
+                    </div>
+
+                    <div class="carousel-item no-borders">
+                        <img class="d-block w-100 mobile-ht-home" src="images/requirement&analysis.jpg" alt="First slide">
+                        <div class="carousel-caption  custom-caption-home d-md-block">
+                            <div class="text container">
+                                <h1>We Deliver <span>The Solutions </span><span>You Need</span></h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <span>sed do eiusmod tempor incididunt magna aliqua.</span></p>
+                                <a class="orenge" href="#">GET STARTED</a>
+                             </div>
+                          </div>
+                    
+                    </div>
+
+                    <div class="carousel-item no-borders">
+                        <img class="d-block w-100 mobile-ht-home" src="images/Development.jpg" alt="First slide">
+                        <div class="carousel-caption  custom-caption-home d-md-block">
+                            <div class="text container">
+                                <h1>We Deliver <span>The Solutions </span><span>You Need</span></h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <span>sed do eiusmod tempor incididunt magna aliqua.</span></p>
+                                <a class="" href="#">GET STARTED</a>
+                             </div>
+                          </div>
+                    
+                    </div>
+                    <div class="carousel-item no-borders">
+                        <img class="d-block w-100 mobile-ht-home" src="images/Hire-Virtual-staffing.jpg" alt="First slide">
+                        <div class="carousel-caption  custom-caption-home d-md-block">
+                            <div class="text container">
+                                <h1>We Deliver <span>The Solutions </span><span>You Need</span></h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <span>sed do eiusmod tempor incididunt magna aliqua.</span></p>
+                                <a class="orenge" href="#">GET STARTED</a>
+                             </div>
+                          </div>
+                    
+                    </div>
+                                    
+                  </div>          
+                </div>       
+            </div>
+        </div>
+    </div>
+
+    <div class="About_section common-space">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 image">
+                    <img src="images/about-img.png" alt="">
+                </div>
+                <div class="col-md-7 text">
+                    <h3>Who We Are</h3>
+                    <h2>About <strong>Minds</strong> <em>Task</em></h2>
+                    <p>At, MindsTask Technologies, we believe in consistency, quality and there is always a better way to find a solution.  MindsTask Technologies is the next-gen technology solution provider and modernization partner for Global  corporations. We are helping them deliver the perfect solutions through exceptional experiences, and forefront technologies, boost revenues and maximize efficiencies. We help to build advanced and integrated digital businesses leading them into a seamless tomorrow.</p>
+                    <a href="#" class="aboutBtn">EXPLORE NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>            
+    
+    <div class="Customer_service_section common-space no-borders">
+        <div class="container">
+            <h2 class="common-clrs">Our Customer Service Focused</h2>
+            <p>Mindstask provides a complete cycle of IT services—consulting, architecture design, implementation and support—by aligning your business objectives with innovative technology solutions. Our next generation technology services help you steer your business through disruptive times and succeed in the emerging new markets.</p>
+            <ul class="row">
+                <li class="col-md-4">
+                    <div class="text">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <span><i class="fas fa-tasks"></i></span>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="#">Read More <em><i class="fas fa-angle-right"></i></em></a>
+                            </div>
+                        </div>
+                        <h3>PIM</h3>
+                        <p>Pimcore provides a better way to consolidate PIM, DAM, CMS/WCM and e-commerce platforms at one place. Designed to simplify the whole structure with a single.</p>
+                    </div>
+                </li>
+                <li class="col-md-4">
+                    <div class="text">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <span><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="#">Read More <em><i class="fas fa-angle-right"></i></em></a>
+                            </div>
+                        </div>
+                        <h3>E commerce</h3>
+                        <p>E-commerce marketing is more challenging today than ever before as merchants compete for online shopping dollars. One of the many challenges organizations face is finding</p>
+                    </div>
+                </li>
+                <li class="col-md-4">
+                    <div class="text">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <span><i class="fas fa-cloud"></i></span>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="#">Read More <em><i class="fas fa-angle-right"></i></em></a>
+                            </div>
+                        </div>
+                        <h3>Cloud & Digital</h3>
+                        <p>The market reality and customer expectations are changing rapidly. Organizations’ IT infrastructures are struggling to meet these changing demands due to lack of flexibility.</p>
+                    </div>
+                </li>
+                <li class="col-md-4">
+                    <div class="text">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <span><i class="fas fa-mobile"></i></span>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="#">Read More <em><i class="fas fa-angle-right"></i></em></a>
+                            </div>
+                        </div>
+                        <h3>Mobile development</h3>
+                        <p>The Mindstask serves the entire mobile app development cycle, no matter how diverse or complex your needs are. Our ability to meet your needs stem from our team of experts.</p>
+                    </div>
+                </li>
+                <li class="col-md-4">
+                    <div class="text">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <span><i class="fas fa-code"></i></span>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="#">Read More <em><i class="fas fa-angle-right"></i></em></a>
+                            </div>
+                        </div>
+                        <h3>Front end development</h3>
+                        <p>The front end of a website is the part that users interact with. Everything that you see when you’re navigating around the Internet, from fonts and colors to dropdown menus and sliders.</p>
+                    </div>
+                </li>
+                <li class="col-md-4">
+                    <div class="text">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <span><i class="fas fa-laptop-code"></i></span>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="#">Read More <em><i class="fas fa-angle-right"></i></em></a>
+                            </div>
+                        </div>
+                        <h3>Enterprise Software Development</h3>
+                        <p>Enterprise software is meant to satisfy the needs of an organization rather than an individual user. One key is that enterprise software has to be built in context for which it is being used.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="Industries_section common-space">
+        <div class="container">
+            <div class="row">                
+                <div class="text col-md-4">
+                    <h5 class="common-clrs-industry">Industries <span>Which We</span> <span>Serve</span></h5>
+                </div>
+                <div class="image col-md-8">
+                    <!-- <img src="images/industries.png"alt=""> -->
+                    <ul>
+                        <li>
+                            <div class="social">
+                                <ul>
+                                    <li>
+                                        <div class="industries">
+                                            <span><i class="fas fa-project-diagram"></i></span>
+                                            <h3>social <em>networking</em></h3>                                            
+                                        </div>
+                                        <div class="border_bottom">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="industries">
+                                            <span><i class="fas fa-bullhorn"></i></span>
+                                            <h3>digital <em>content</em></h3>
+                                        </div>
+                                        <div class="border_bottom">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>                            
+                        </li>
+                        <li>
+                            <div class="social">
+                                <ul>
+                                    <li>
+                                        <div class="industries">
+                                            <span><i class="fas fa-shopping-cart"></i></span>
+                                            <h3>e-commerce</h3>
+                                        </div>
+                                        <div class="border_bottom">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="industries">
+                                            <span><i class="fas fa-play-circle"></i></span>
+                                            <h3>entertainment</h3>
+                                        </div>
+                                        <div class="border_bottom">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="industries">
+                                            <span><i class="fas fa-university"></i></span>
+                                            <h3>banking</h3>
+                                        </div>
+                                        <div class="border_bottom">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>                            
+                        </li>
+                        <li>
+                            <div class="social">
+                                <ul>
+                                    <li>
+                                        <div class="industries">
+                                            <span><i class="fas fa-building"></i></span>
+                                            <h3>enterprise</h3>                                            
+                                        </div>
+                                        <div class="border_bottom">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="industries">
+                                            <span><i class="fas fa-graduation-cap"></i></span>
+                                            <h3>education</h3>
+                                        </div>
+                                        <div class="border_bottom">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>                            
+                        </li>
+                        <li>
+                            <div class="social">
+                                <ul>
+                                    <li>
+                                        <div class="industries">
+                                            <span><i class="fas fa-plane"></i></span>
+                                            <h3>travel</h3>
+                                        </div>
+                                        <div class="border_bottom">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="industries">
+                                            <span><i class="fas fa-heart"></i></span>
+                                            <h3>health</h3>
+                                        </div>
+                                        <div class="border_bottom">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="industries">
+                                            <span><i class="fas fa-ticket-alt"></i></span>
+                                            <h3>event <em>& ticket</em></h3>
+                                        </div>
+                                        <div class="border_bottom">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>                            
+                        </li>
+                        <li>
+                            <div class="social">
+                                <ul>
+                                    <li>
+                                        <div class="industries">
+                                            <span><i class="fas fa-utensils"></i></span>
+                                            <h3>food tech</em></h3>                                            
+                                        </div>
+                                        <div class="border_bottom">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="industries">
+                                            <span><i class="fas fa-user-friends"></i></span>
+                                            <h3>on demand <em>solution</em></h3>
+                                        </div>
+                                        <div class="border_bottom">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <div class="conection_section no-borders common-space-small">
+        <div class="container">
+            <ul class="row">
+                <li class="col-md-4">
+                    <div data-number="1022556" style="visibility: visible;">                
+                        <div class="test">
+                            <span><i class="fas fa-check-circle"></i></span><p id="number1">95</p>
+                            <em><i class="fas fa-plus"></i></em>                    
+                        </div>
+                        <h5>Successfully<i>Developed Projects</i></h5>                        
+                    </div>
+                </li>
+                <li class="col-md-4">
+                    <div class="test">
+                    <div data-number="1458986" style="visibility: visible;">                
+                        <span><i class="fas fa-lightbulb"></i></span><p id="number2">125</p>                            
+                        <em><i class="fas fa-plus"></i></em>                    
+                    </div>
+                    </div>
+                    <h5>Unique Ideas<i>Submitted</i></h5>                    
+                </li>
+                <li class="col-md-4">
+                    <div class="test">
+                        <div data-number="1505281" style="visibility: visible;">                
+                            <span><i class="fas fa-users"></i></span><p id="number2">20</p>                            
+                            <em><i class="fas fa-plus"></i></em>                    
+                        </div>
+                        </div>          
+                    <h5>Professionals<i>in Our Team</i></h5>      
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="Blog_section case-study">        
+        <div class="container">
+            <h2 class="common-clrs">Case Studies</h2>  
+            <ul class="row">
+                            <li class="col-md-4">
+                    <img src="https://mindstask.com/case-studies/project-management-solution.png">
+                    <div class="content-txt">
+                        <p><a href="">SaaS-Based Project Management Solution for a Food Cold Chain Logistics</p></a>
+                    </div>
+                    <div class="case-study-body">
+                        <a href="#" class="case-btn">Learn More<span><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+                        </div>
+                    <!-- <div class="text back-txt">
+                        <p><a data-tabindex-counter="1" data-tabindex-value="none" href="https://mindstask.com/case-study/saas-based-project-management-soolution-for-a-food-cold-chain-logistics" tabindex="-1">SaaS-Based Project Management Solution for a Food Cold Chain Logistics</a></p>
+                        <div class="case-study-body">
+                            <a href="#">Learn More<span><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+                            </div>     
+                    </div> -->
+                </li>
+                            <li class="col-md-4">
+                    <img src="https://mindstask.com/case-studies/lighting-manufacturers.png">
+                    <div class="content-txt">
+                        <p><a href="">Lighting Manufacturer Improves Operational Performance with Pimcore PIM</p></a>
+                    </div>
+                    <div class="case-study-body">
+                        <a href="#" class="case-btn">Learn More<span><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+                        </div>
+                </li>
+                            <li class="col-md-4">
+                    <img src="https://mindstask.com/case-studies/gps-germany-iot-solution-provider.png">
+                    <div class="content-txt">
+                        <p><a href="">GPS Solves Multi-Lingual Product Data Challenges with Pimcore PIM</p></a>
+                    </div>
+                    <div class="case-study-body">
+                        <a href="#" class="case-btn">Learn More<span><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+                        </div>
+                </li>
+                               
+            </ul>
+        </div>
+    </div>
+   
+
+    <div class="Blog_section latest-blogs-section">        
+        <div class="container">
+           
+                <div class="">
+                    <h2 class="common-clrs">Our Latest Insights/Blogs</h4>
+                    <div class="latest-blog-slider owl-theme">
+                        <div class="item">
+                            <div class="latest-blog-1">
+                                <div class="latest-image-wapper">
+                                    <div class="latest-blog-image position-relative">
+                                        <figure>
+                                            <img src="images/latest-blog-1.jpg" alt="">
+                                        </figure>
+                                        <div class="latest-blog-caption">
+                                            <img src="images/lbap.jpg" alt="">
+                                            <a href="#">Author Name</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="latest-blog-body">
+                                    <span class="calendar"><i class="far fa-calendar-alt"></i> 22 Sep </span>
+                                    <span><i class="far fa-clock"></i>12 min read</span>
+                                    <h3>Blog Post Heading : Reignite First
+                                        Latest Blog Post by Team Reignite</h3>
+                                    <a href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="latest-blog-1">
+                                <div class="latest-image-wapper">
+                                    <div class="latest-blog-image position-relative">
+                                        <figure>
+                                            <img src="images/latest-blog-2.jpg" alt="">
+                                        </figure>
+                                        <div class="latest-blog-caption">
+                                            <img src="images/lbap.jpg" alt="">
+                                            <a href="#">Author Name</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="latest-blog-body">
+                                    <span class="calendar"><i class="far fa-calendar-alt"></i> 22 Sep </span>
+                                    <span><i class="far fa-clock"></i>12 min read</span>
+                                    <h3>Blog Post Heading : Reignite First
+                                        Latest Blog Post by Team Reignite</h3>
+                                    <a href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="latest-blog-1">
+                                <div class="latest-image-wapper">
+                                    <div class="latest-blog-image position-relative">
+                                        <figure>
+                                            <img src="images/latest-blog-3.jpg" alt="">
+                                        </figure>
+                                        <div class="latest-blog-caption">
+                                            <img src="images/lbap.jpg" alt="">
+                                            <a href="#">Author Name</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="latest-blog-body">
+                                    <span class="calendar"><i class="far fa-calendar-alt"></i> 22 Sep </span>
+                                    <span><i class="far fa-clock"></i>12 min read</span>
+                                    <h3>Blog Post Heading : Reignite First
+                                        Latest Blog Post by Team Reignite</h3>
+                                    <a href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+        </div>
+    </div>
+  
+    <div class="Blog_section common-space-small clients-section">        
+        <div class="container">
+           
+                <div class="client-owl-navs-control">
+                    <h2 class="common-clrs">Trusted by Leading Brands Worldwide. They just love Pimcore</h4>
+                    <div class="latest-blog-slider owl-theme">
+                       
+                        <div class="item client-img">
+                            <div class="latest-blog-1">
+                                <div class="latest-image-wapper">
+                                    <div class="latest-blog-image position-relative">
+                                        <figure>
+                                            <img src="images/clients1.png" alt="">
+                                        </figure>
+                                       
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                        <div class="item client-img">
+                            <div class="latest-blog-1">
+                                <div class="latest-image-wapper">
+                                    <div class="latest-blog-image position-relative">
+                                        <figure>
+                                            <img src="images/clients2.png" alt="">
+                                        </figure>
+                                       
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                        <div class="item client-img">
+                            <div class="latest-blog-1">
+                                <div class="latest-image-wapper">
+                                    <div class="latest-blog-image position-relative">
+                                        <figure>
+                                            <img src="images/clients3.png" alt="">
+                                        </figure>
+                                       
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                        <div class="item client-img">
+                            <div class="latest-blog-1">
+                                <div class="latest-image-wapper">
+                                    <div class="latest-blog-image position-relative">
+                                        <figure>
+                                            <img src="images/clients4.png" alt="">
+                                        </figure>
+                                       
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                        <div class="item client-img">
+                            <div class="latest-blog-1">
+                                <div class="latest-image-wapper">
+                                    <div class="latest-blog-image position-relative">
+                                        <figure>
+                                            <img src="images/clients5.png" alt="">
+                                        </figure>
+                                       
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                        <div class="item client-img">
+                            <div class="latest-blog-1">
+                                <div class="latest-image-wapper">
+                                    <div class="latest-blog-image position-relative">
+                                        <figure>
+                                            <img src="images/clients6.png" alt="">
+                                        </figure>
+                                       
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                        <div class="item client-img">
+                            <div class="latest-blog-1">
+                                <div class="latest-image-wapper">
+                                    <div class="latest-blog-image position-relative">
+                                        <figure>
+                                            <img src="images/clients7.png" alt="">
+                                        </figure>
+                                       
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+        </div>
+    </div>
+
+<footer>
+         <div class="Footer_contact">
+            <div class="container">
+                <div class="row">
+                    <div class="left_section col-md-9">
+                       <div class="footer-left-head">
+                           <h3>Need help? Let's Talk.</h3>
+                           <p>Whatever business problem you have, we have the Back-End solutions to help.</p>
+                       </div>
+                    </div>
+                    <div class="right_section col-md-3">
+                                            <a href="#">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div class="Footer_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1 footer_logo">
+                        <a href="#"><img alt="" title="" src="images/footer-logo.png" /></a>
+                    </div>
+                    <div  class="col-md-3 talk">
+                    <h6>Would you like to talk about your project?</h6>
+                       
+                    <a href="/en/Contact" title="Get in touch" type="internal">Get in touch</a>   
+                    <div class="follow-mt">
+                        <ul>
+                            <li><em>Follow us on</em></li>
+                            <li class="socila-icon-list"><a href="https://www.facebook.com/MindsTaskTechnologies" target="_blank" class="fa fa-facebook" type="internal" aria-hidden="true"></a></li>
+                            <li class="socila-icon-list"><a href="https://twitter.com/MindsTask" target="_blank" class="fa fa-twitter" type="internal" aria-hidden="true"></a></li>
+                            <li class="socila-icon-list"><a href="https://www.linkedin.com/company/14539201" target="_blank" class="fa fa-linkedin" type="internal" aria-hidden="true"></a></li>
+                            <li class="socila-icon-list"><a href="https://www.instagram.com/mindstasktechnologies/" target="_blank" class="fa fa-instagram" type="internal" aria-hidden="true"></a></li>                       
+                        </ul>
+                    </div>                
+                 </div>
+                    <div class="col-md-4 links">
+                        <ul>
+                            <li><em>Services</em></li>
+                          
+                                                         <li><a href="/en/our-services/pimcore-development-maintenance-support-services" target="_blank" type="internal">Product Information Management </a></li>
+                                                          <li><a href="/en/our-services/magento-ecommerce-development" target="_blank" type="internal">eCommerce Solutions</a></li>
+                                                          <li><a href="/en/our-services/front-end-development-services" target="_blank" type="internal">Front end Development</a></li>
+                                               
+                        </ul>
+                        <div class="site-logo" style="margin-top:40px;">
+                            <a href="https://mindstask.com/blog/we-are-now-a-pimcore-silver-partner" style="border-bottom: none;"><img src="images/partnership.svg" alt="" style="max-width: 150px;"></a>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-2 social_links">
+                        <ul>
+                            <li><em>Follow us on</em></li>
+                            <li><a href="https://www.facebook.com/MindsTaskTechnologies" target="_blank" title="Facebook" type="internal">Facebook</a></li>
+                            <li></li>
+                            <li><a href="https://twitter.com/MindsTask" target="_blank" title="Twitter" type="internal">Twitter</a></li>
+                            <li><a href="https://www.linkedin.com/company/14539201" target="_blank" title="LinkedIn" type="internal">LinkedIn</a></li>                       
+                        </ul>
+                    </div> -->
+                    <div class="col-md-4 address_section">
+                        <ul>
+                            <li><em>OUR ADDRESSES </em></li>
+                            <li>
+                            <address><strong>India</strong>: A-152,LGF, Sector 63, Industrial Area, Noida, Uttar Pradesh 201309</address>
+                            <li>
+                            <address><strong>USA</strong>: 2890 , Nottingham Dr Trophy Club, TX, 76262</address>
+
+<p><strong>Europe</strong>: Njalsgade, 19d 1st Floor, 2300 Copenhagen, Denmark</p>
+
+<p><strong>Europe</strong>: Haugane 12 A, 3409, Tranby, Norway</p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="Copyright_section">
+            <div class="container">
+                <div class="row">
+                    <div class="left col-md-6">
+                     <p>Copyright © 2021&nbsp;Mindstask. All Rights Reserved.</p>
+                    </div>
+                    <div class="right col-md-6">
+                        <ul>
+                           
+                            <li>
+                            <a href="/landing-page/terms-conditions" title="Terms & Condition" type="internal">Terms &amp; Condition</a>                            <li>
+                            <a href="/landing-page/privacy-policy" title="Privacy Policy" type="internal">Privacy Policy</a>                            </li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div>
+        <button class="open-button" onclick="openForm()" id="enquiry">Quick Enquiry</button>
+    </div>
+
+<!--<button class="open-button" onclick="openForm()"><img src="images/new-msg.png" alt="">Need Help? Contact Us</button>  -->
+
+<div class="chat-popup" id="myForm">
+<h1 class="chat-head">Quick Enquiry Form</h1>
+<button type="button" class="close form-close" onclick="closeForm()">&times;</button>
+<form action="/action_page.php" class="form-container">
+
+    <div class="form-group">
+        <input type="text" name="name1" id="name1" class="form-control enquiry-check" placeholder="Your Name" required="" aria-required="true">
+    </div>
+
+    <div class="form-group">
+        <input type="email" name="email" id="email" class="form-control enquiry-check" placeholder="Your Email" required="" aria-required="true">
+    </div>
+
+    <div class="form-group">
+        <textarea name="message" id="message" class="form-control enquiry-check" placeholder="Your Enquiry"></textarea>
+    </div>
+<div class="text-center enquiry-btn">
+<a href="" class="send-enquiry">Submit Enquiry</a>
+</div>
+<!--<button type="button" class="btn cancel" onclick="closeForm()">Close</button> -->
+</form>
+
+</div>
+
+    <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/jquery.slicknav.js"></script>
+    <script type="text/javascript" src="js/font-awesome.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+    <script>
+            function openForm() {
+     // document.getElementById("myForm").style.display = "block";
+     $("#myForm").fadeIn("slow");
+     $("#enquiry").hide();
+    }
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+      document.getElementById("enquiry").style.display = "block";
+    }
+        </script>
+	
+  </body>
+
+</html>
+   
